@@ -5,7 +5,16 @@
   "repository": "https://github.com/cheonkyu/crawling-js-puppeteer.git",
   "author": "cheonkyu1014 <cheonkyu@pocaskenm.kr>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/connect.js"
+  },
   "dependencies": {
-    "puppeteer": "^23.6.0"
+    "puppeteer": "^23.6.0",
+    "puppeteer-cluster": "^0.24.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "puppeteer-extra-plugin-block-resources": "^2.4.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
